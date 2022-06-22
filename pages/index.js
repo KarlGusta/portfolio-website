@@ -33,7 +33,7 @@ export default function Home() {
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Apps &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Want to see my trophies? Let me walk you to my trophy room!</p>
           </a>
 
           <a
@@ -41,7 +41,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Resume &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <p>Even Stephen Curry has a resume. I didn&#39;t want to be left out</p>
           </a>
 
           <a
@@ -50,7 +50,7 @@ export default function Home() {
           >
             <h2>Social media &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              I&#39;m social here. Very. Especially Twitter.
             </p>
           </a>
         </div>
