@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/Link'
 
-export default function Blogs() {
+export default function Socialmedia() {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +14,7 @@ export default function Blogs() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Blogs!</a>
+          Welcome to <a href="https://nextjs.org">my Social Media!</a>
         </h1>
 
         {/* <p className={styles.description}>
@@ -26,39 +27,25 @@ export default function Blogs() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>freeCodeCamp English &rarr;</h2>
-            <p>freeCodeCamp English blogs here.</p>
+          <a href="https://twitter.com/annoh_karlgusta" className={styles.card}>
+            <h2>Twitter &rarr;</h2>
+            <p>Twitter here.</p>
           </a>
 
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>freeCodeCamp Swahili &rarr;</h2>
-            <p>freeCodeCamp Swahili blogs here.</p>
+            <h2>LinkedIn &rarr;</h2>
+            <p>LinkedIn here.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Hashnode &rarr;</h2>
-            <p>Hashnode blogs here.</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Dev.to &rarr;</h2>
-            <p>Dev.to blogs here.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>TealFeed &rarr;</h2>
-            <p>
-              TealFeed blogs here.
-            </p>
-          </a>
         </div>
+
+        <Link href="/">
+            <a>
+                <h4>&larr; Home</h4>
+                <h6>Go back home.</h6>
+            </a>
+        </Link>
+
       </main>
 
       <footer className={styles.footer}>

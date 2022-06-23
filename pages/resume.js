@@ -13,7 +13,7 @@ export default function Blogs() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Blogs!</a>
+          Welcome to <a href="https://nextjs.org">Resume!</a>
         </h1>
 
         {/* <p className={styles.description}>
@@ -26,36 +26,13 @@ export default function Blogs() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>freeCodeCamp English &rarr;</h2>
-            <p>freeCodeCamp English blogs here.</p>
-          </a>
-
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>freeCodeCamp Swahili &rarr;</h2>
-            <p>freeCodeCamp Swahili blogs here.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Hashnode &rarr;</h2>
-            <p>Hashnode blogs here.</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Dev.to &rarr;</h2>
-            <p>Dev.to blogs here.</p>
-          </a>
-
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>TealFeed &rarr;</h2>
+            <h2>Resume &rarr;</h2>
             <p>
-              TealFeed blogs here.
+              Resume here.
             </p>
           </a>
         </div>
