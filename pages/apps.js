@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
-export default function Blogs() {
+export default function Apps() {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,17 +14,17 @@ export default function Blogs() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Blogs!</a>
+          Welcome to <Link href="/apps">Apps!</Link>
         </h1>
 
-        {/* <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p> */}
-
         <p className={styles.description}>
-          Join me.
+          These are some of the apps and projects I&#39;m creating{' '}
+          <code className={styles.code}>as time goes by!</code>
         </p>
+
+        {/* <p className={styles.description}>
+          Join me.
+        </p> */}
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -31,9 +32,25 @@ export default function Blogs() {
             <p>freeCodeCamp English blogs here.</p>
           </a>
 
+          <a href="https://t.co/jdXgDiEuYp" className={styles.card}>
+            <h2>General Life&#39;s Knowledge &rarr;</h2>
+            <p>Here, you can get random questions about life. Anything goes except the sensored stuffs!</p>
+          </a>
+        </div>
+
+        <h2 className={styles.title}>
+          Hello, <Link href="/apps">Open source!</Link>
+        </h2>
+
+          <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>freeCodeCamp Swahili &rarr;</h2>
-            <p>freeCodeCamp Swahili blogs here.</p>
+            <h2>freeCodeCamp English &rarr;</h2>
+            <p>freeCodeCamp English blogs here.</p>
+          </a>
+
+          <a href="https://t.co/jdXgDiEuYp" className={styles.card}>
+            <h2>General Life&#39;s Knowledge &rarr;</h2>
+            <p>Here, you can get random questions about life. Anything goes except the sensored stuffs!</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
@@ -59,6 +76,7 @@ export default function Blogs() {
             </p>
           </a>
         </div>
+
       </main>
 
       <footer className={styles.footer}>
