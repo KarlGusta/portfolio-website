@@ -28,7 +28,7 @@ export default function Blogs() {
         <div className={styles.grid}>
           <a href="https://www.freecodecamp.org/news/how-to-learn-javascript-faster/" className={styles.card}>
             <h2>freeCodeCamp English &rarr;</h2>
-            <p>See my contributions on freeCodeCamp's English Publication.</p>
+            <p>See my contributions on freeCodeCamp&#39;s English Publication.</p>
           </a>
 
           <a href="https://nextjs.org/docs" className={styles.card}>
