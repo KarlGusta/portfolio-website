@@ -26,9 +26,9 @@ export default function Blogs() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="https://www.freecodecamp.org/news/how-to-learn-javascript-faster/" className={styles.card}>
             <h2>freeCodeCamp English &rarr;</h2>
-            <p>freeCodeCamp English blogs here.</p>
+            <p>See my contributions on freeCodeCamp&#39;s English Publication.</p>
           </a>
 
           <a href="https://nextjs.org/docs" className={styles.card}>
@@ -36,9 +36,9 @@ export default function Blogs() {
             <p>freeCodeCamp Swahili blogs here.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://annohkarlgusta.hashnode.dev/" className={styles.card}>
             <h2>Hashnode &rarr;</h2>
-            <p>Hashnode blogs here.</p>
+            <p>Read my Hashnode blogs</p>
           </a>
 
           <a
