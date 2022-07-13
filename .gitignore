@@ -30,3 +30,31 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# TO BE REMOVED AS I LEARN MORE ABOUT THEMl
+.dockerignore
+.prettierignore
+Dockerfile
+.github/FUNDING.yml
+.github/ISSUE_TEMPLATE/bug.yml
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/docs.yml
+.github/ISSUE_TEMPLATE/feature_request.yml
+.github/ISSUE_TEMPLATE/other.yml
+.github/workflows/build.yml
+.github/workflows/community.yml
+.github/workflows/deploy.yml
+.github/workflows/prettier.yml
+.github/workflows/release.yml
+cypress/fixtures/example.json
+cypress/integration/404.feature
+cypress/integration/homepage.feature
+cypress/integration/search.feature
+cypress/integration/user.feature
+cypress/integration/common/actions.js
+cypress/plugins/index.js
+cypress/support/commands.js
+cypress/support/index.js
+kubernetes/deployment.yaml
+kubernetes/ingress.yaml
+kubernetes/service.yaml
