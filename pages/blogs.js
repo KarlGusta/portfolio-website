@@ -36,9 +36,9 @@ export default function Blogs() {
             <p>freeCodeCamp Swahili blogs here.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://annohkarlgusta.hashnode.dev/" className={styles.card}>
             <h2>Hashnode &rarr;</h2>
-            <p>Hashnode blogs here.</p>
+            <p>Read my Hashnode blogs</p>
           </a>
 
           <a
