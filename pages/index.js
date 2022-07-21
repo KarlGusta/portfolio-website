@@ -37,7 +37,7 @@ export default function Home() {
           </a>
 
           <a
-            href="resume"
+            href="/assets/resume.pdf"
             className={styles.card}
           >
             <h2>Resume &rarr;</h2>

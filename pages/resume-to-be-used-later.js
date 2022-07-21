@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Blogs() {
+export default function Resume() {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +13,7 @@ export default function Blogs() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Blogs!</a>
+          Welcome to <a href="https://nextjs.org">Resume!</a>
         </h1>
 
         {/* <p className={styles.description}>
@@ -21,43 +21,23 @@ export default function Blogs() {
           <code className={styles.code}>pages/index.js</code>
         </p> */}
 
+        
+
         <p className={styles.description}>
           Join me.
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>freeCodeCamp English &rarr;</h2>
-            <p>freeCodeCamp English blogs here.</p>
-          </a>
-
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>freeCodeCamp Swahili &rarr;</h2>
-            <p>freeCodeCamp Swahili blogs here.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Hashnode &rarr;</h2>
-            <p>Hashnode blogs here.</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Dev.to &rarr;</h2>
-            <p>Dev.to blogs here.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>TealFeed &rarr;</h2>
-            <p>
-              TealFeed blogs here.
-            </p>
-          </a>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View my resume{' '}
+          <span className={styles.logo}>
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
+        </a>
         </div>
       </main>
 
