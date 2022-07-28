@@ -53,6 +53,16 @@ export default function Home() {
               I&#39;m social here. Very. Especially Twitter.
             </p>
           </a>
+
+          <a
+            href="opensourceappscontributingto"
+            className={styles.card}
+          >
+            <h2>Open source contributions &rarr;</h2>
+            <p>
+              These are the apps I&#39;m contributing to on GitHub.
+            </p>
+          </a>
         </div>
       </main>
 
