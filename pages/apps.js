@@ -27,56 +27,11 @@ export default function Apps() {
         </p> */}
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>freeCodeCamp English &rarr;</h2>
-            <p>freeCodeCamp English blogs here.</p>
-          </a>
-
-          <a href="https://t.co/jdXgDiEuYp" className={styles.card}>
-            <h2>General Life&#39;s Knowledge &rarr;</h2>
-            <p>Here, you can get random questions about life. Anything goes except the sensored stuffs!</p>
+          <a href="https://fetch-issues-to-work-on-app.vercel.app/" className={styles.card}>
+            <h2>Open-source Issues &rarr;</h2>
+            <p>Find issues you can contribute to on GitHub.</p>
           </a>
         </div>
-
-        <h2 className={styles.title}>
-          Hello, <Link href="/apps">Open source!</Link>
-        </h2>
-
-          <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>freeCodeCamp English &rarr;</h2>
-            <p>freeCodeCamp English blogs here.</p>
-          </a>
-
-          <a href="https://t.co/jdXgDiEuYp" className={styles.card}>
-            <h2>General Life&#39;s Knowledge &rarr;</h2>
-            <p>Here, you can get random questions about life. Anything goes except the sensored stuffs!</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Hashnode &rarr;</h2>
-            <p>Hashnode blogs here.</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Dev.to &rarr;</h2>
-            <p>Dev.to blogs here.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>TealFeed &rarr;</h2>
-            <p>
-              TealFeed blogs here.
-            </p>
-          </a>
-        </div>
-
       </main>
 
       <footer className={styles.footer}>
