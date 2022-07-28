@@ -8,4 +8,4 @@ I'm using:
 - [Next.js](https://nextjs.org/)
 - Vercel. This is where the project is hosted.
 
-If you would like to get to me, [hit me up on twitter](https://twitter.com/annoh_karlgusta)
+If you would like to, [hit me up on twitter](https://twitter.com/annoh_karlgusta)
